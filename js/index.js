@@ -4,7 +4,9 @@ var description = ["Clicking here can provide some insight on whether or not to 
 window.onload = function() {
 for (var i = 1; i < 4; ++i){
     
-var create = document.getElementById("w" + i);
+var create = document.getElementById("w" +i);
+
+
 var header = document.createElement("h4");
 header.innerHTML = listofsites[i-1];
 create.appendChild(header);
@@ -12,6 +14,7 @@ var paragraph = document.createElement("p")
 paragraph.innerHTML =description[i-1];
 paragraph.innerHTML += '<a href =' + listofsites[i-1] + '> Click here</a>';
 create.appendChild(paragraph)
+
 }
 }
 
