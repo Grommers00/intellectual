@@ -1,0 +1,21 @@
+#main2{
+    background-color: yellow;
+    -webkit-border-radius: 26px;
+-moz-border-radius: 26px;
+border-radius: 26px;
+}
+
+#head1 {
+    padding: 10px;
+}
+
+.main .body .page {
+    text-align:left;
+    border: thick;
+    border-color: black;
+    border-width: 5px;
+
+}
+
+
+
